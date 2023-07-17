@@ -1,0 +1,10 @@
+{
+  "name": "flexboxy",
+  "version": "0.1.0",
+  "description": "A React component that makes it easier to use CSS Flexbox.",
+  "main": "dist/index.js",
+  "repository": "https://github.com/szhu/flexboxy",
+  "author": "Sean Zhu",
+  "license": "MIT",
+  "private": false
+}
