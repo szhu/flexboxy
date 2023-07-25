@@ -1,6 +1,6 @@
 {
   "name": "flexboxy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A React component that makes it easier to use CSS Flexbox.",
   "main": "dist/index.js",
   "repository": "https://github.com/szhu/flexboxy",
