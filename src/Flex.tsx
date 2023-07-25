@@ -150,6 +150,7 @@ function parseFlexProps(props: FlexProps) {
 
 const Flex: React.FC<
   FlexProps & {
+    as?: keyof JSX.IntrinsicElements;
     children?: React.ReactNode;
     className?: string;
     debug?: boolean;
@@ -158,9 +159,11 @@ const Flex: React.FC<
     wrap?: boolean;
   }
 > = (props) => {
+  let Tag = props.as ?? "div";
   let flexStyle = parseFlexProps(props as any);
+
   return (
-    <div
+    <Tag
       className={cx(
         css`
           outline: ${props.debug && "2px dashed #ff00ff40"};
@@ -180,7 +183,7 @@ const Flex: React.FC<
       )}
     >
       {props.children}
-    </div>
+    </Tag>
   );
 };
 
