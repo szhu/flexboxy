@@ -6,5 +6,8 @@
   "repository": "https://github.com/szhu/flexboxy",
   "author": "Sean Zhu",
   "license": "MIT",
-  "private": false
+  "devDependencies": {
+    "@emotion/css": "^11.11.2",
+    "@types/react": "^18.2.16"
+  }
 }
